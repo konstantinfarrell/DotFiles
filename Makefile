@@ -1,7 +1,6 @@
 .PHONY: install run clean
 
 install:
-	cd dotfiles/
-	cp wombat256mod.vim ~/.vim/colors/
-	cp .bashrc ~/.bashrc
-	cp .vimrc ~/.vimrc
+	cp dotfiles/wombat256mod.vim ~/.vim/colors/
+	cp dotfiles/.bashrc ~/.bashrc
+	cp dotfiles/.vimrc ~/.vimrc
